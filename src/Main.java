@@ -38,6 +38,9 @@ public class Main {
         //Ngọc Hải
         Wolf wolf=new Wolf("Xám","Wolf gray","male",5);
         zoo.add(wolf);
+        //Thanh Thảo
+        Pig pig = new Pig("Cog","female",1,"mập mập sâu kiu",70,"ăn và ngủ");
+        zoo.add(pig);
         //In ra danh sách các con vật có trong sở thú
         printAllAnimals();
     }
