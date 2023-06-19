@@ -18,6 +18,12 @@ public class Main {
         Monkey monkey = new Monkey("Khỉ đầu chó","male",10);
         zoo.add(monkey);
 
+
+        //Lê Thị Kim Oanh
+        Tiger tiger = new Tiger("Black Gold", "female", 2);
+        zoo.add(tiger);
+
+
         //Mỹ Duyên
         Cat cat = new Cat("Maine Coon","male",1,"gừ gừ","cute vãi òooo","Quàng thuợng");
         zoo.add(cat);
