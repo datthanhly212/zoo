@@ -13,10 +13,10 @@ public class Main {
         //dvhoang
         Dog dog = new Dog("Ki ", "male", 1);
         zoo.add(dog);
+
         //manhquynhne
         Monkey monkey = new Monkey("Khỉ đầu chó","male",10);
         zoo.add(monkey);
-
 
         //Mỹ Duyên
         Cat cat = new Cat("Maine Coon","male",1,"gừ gừ","cute vãi òooo","Quàng thuợng");
@@ -28,6 +28,10 @@ public class Main {
         //Trần Thành Đạt
         Cheetah cheetah = new Cheetah("Báo đen","Male", 19,"Báo đời");
         zoo.add(cheetah);
+
+        //Thế Bảo
+        Panda panda = new Panda("Gấu trúc","male",10,"ăn tre và ngủ cả ngày");
+        zoo.add(panda);
         //In ra danh sách các con vật có trong sở thú
         printAllAnimals();
     }
