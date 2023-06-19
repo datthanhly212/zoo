@@ -33,8 +33,11 @@ public class Main {
         Panda panda = new Panda("Gấu trúc","male",10,"ăn tre và ngủ cả ngày");
         zoo.add(panda);
         //Lê Minh Duy
-        fish fish = new fish("con cá con","male","2","nhõng nhẻo");
+        fish fish = new fish("con cá con","male",2,"nhõng nhẻo");
         zoo.add(fish);
+        //Ngọc Hải
+        Wolf wolf=new Wolf("Xám","Wolf gray","male",5);
+        zoo.add(wolf);
         //In ra danh sách các con vật có trong sở thú
         printAllAnimals();
     }
