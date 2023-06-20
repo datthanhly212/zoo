@@ -47,11 +47,14 @@ public class Main {
         //Thanh Thảo
         Pig pig = new Pig("Cog","female",1,"mập mập sâu kiu",70,"ăn và ngủ");
         zoo.add(pig);
-        //In ra danh sách các con vật có trong sở thú
-        printAllAnimals();
+         //Lý Thành Đạt
+        Swan swan = new Swan("Swain","male",7);
+        zoo.add(swan);
         //Nguyễn Hùng
         snake snake = new snake("Na", "2m", "male", "viper", "2kg");
         zoo.add(snake);
+                //In ra danh sách các con vật có trong sở thú
+        printAllAnimals();
     }
 
     //In ra danh sách các con vật trong sở thú.
