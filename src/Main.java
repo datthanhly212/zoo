@@ -49,6 +49,9 @@ public class Main {
         zoo.add(pig);
         //In ra danh sách các con vật có trong sở thú
         printAllAnimals();
+        //Nguyễn Hùng
+        snake snake = new snake("Na", "2m", "male", "viper", "2kg");
+        zoo.add(snake);
     }
 
     //In ra danh sách các con vật trong sở thú.
