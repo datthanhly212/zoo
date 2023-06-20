@@ -13,7 +13,9 @@ public class Main {
         //dvhoang
         Dog dog = new Dog("Ki ", "male", 1);
         zoo.add(dog);
-
+        //Lý Thành Đạt
+         Swan swan = new Swan("Swain","male",7);
+         zoo.add(swan);
         //manhquynhne
         Monkey monkey = new Monkey("Khỉ đầu chó","male",10);
         zoo.add(monkey);
